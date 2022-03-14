@@ -14,6 +14,6 @@ class HomeActivity: AppCompatActivity() {
         val email = intent.getStringExtra("email")
 
         val txtHome = findViewById<TextView>(R.id.txtHome)
-        txtHome.text = "Halo ${email}"
+        txtHome.text = "Selamat datang ${email}"
     }
 }
